@@ -4,7 +4,9 @@
   "description": "Node.js Rest Apis with Express, Sequelize & PostgreSQL",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "kill": "npx kill-port 3000",
+    "start1": "npm run kill && npm start"
   },
   "keywords": [
     "nodejs",
