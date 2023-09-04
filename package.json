@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "kill": "npx kill-port 3000",
-    "start1": "npm run kill && npm start"
+    "start1": "npm run kill && npm start",
+    "docker-build": " sudo docker build --no-cache -t my-pg-crud ."
   },
   "keywords": [
     "nodejs",
